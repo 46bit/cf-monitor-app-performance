@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-monitor-app-performance
+  instances: 10
+  memory: 128M
+  env:
+    GOVERSION: go1.13
+    GOPACKAGENAME: github.com/46bit/cf-monitor-app-performance
